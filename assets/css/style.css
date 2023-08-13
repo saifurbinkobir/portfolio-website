@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #964600;
+}
+.nav-link{
+    color: #191c49;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.d-btn {
+    border: 2px solid #964600;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #191c49;
+    border-radius: 30px;
+    font-weight: 600;
+}
+.d-btn:hover{
+    background-color: transparent;
+    color: #191c49;
+    transition-duration: 1s;
+}
+.navbar-brand img{
+    width: 100px;
+    height: auto;
+}
+.about-img img{
+    width: 60%;
+    height: auto;
+}
+.service-item img{
+    width: 40%;
+}
+.portfolio-items img{
+    width: 100%;
+    height: 40vh;
+}
+.contact-icon img{
+    width: 80px;
+    height: 80px;
+}
+nav{
+    background-color: #ffffff;
+}
+
+.nav-link{
+    font-weight: 600 !important;
+}
+
+/* Hero CSS  */
+.hero{
+    background-color: #E8E8E8;
+    padding: 80px 0px;
+}
+.hero-content h4{
+    margin: 10px 0px;
+}
+.hero-content h1{
+    margin: 20px 0px;
+}
+.hero-content p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* About CSS  */
+#about{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.section_header{
+    margin-bottom: 50px;
+}
+.section_header h2{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.section_header h2::after {
+    content: '';
+    position: absolute;
+    background-color: #964600;
+    height: 2px;
+    width: 12%;
+    left: 44%;
+    bottom: -10%;
+}
+.section_header h2::before {
+    content: '';
+    position: absolute;
+    background-color: #191c49;
+    height: 2px;
+    width: 8%;
+    left: 46%;
+    bottom: -30%;
+}
+.about-img {
+    text-align: center;
+}
+.about-content h6{
+    font-weight: 600;
+    color: #191c49;
+    font-size: 25px;
+}
+.about-content p{
+    font-weight: 400;
+    color: #191c49;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Service CSS  */
+#service{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #E8E8E8;
+}
+.service-item{
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    margin: 30px;
+    transition-duration: 1.5s;
+}
+.service-item h4{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.service-item p{
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.service-item:hover{
+    background-color: #191c49;
+}
+.service-item:hover .service-text h4{
+    color: white;
+}
+.service-item:hover .service-text p{
+    color: white;
+}
+.service-item:hover .d-btn{
+    color: #E8E8E8;
+}
+.service-item img{
+    margin-bottom: 10px;
+}
+
+/* Portfolio CSS  */
+#portfolio{
+    padding: 80px 0px;
+}
+.portfolio-items{
+    margin: 20px 0px;
+}
+.portfolio-items h6{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* Contact CSS  */
+#contact{
+    padding: 80px 0px;
+}
+.contact-info{
+    margin-top: 30px;
+}
+.contact-texts h6{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contact-texts a{
+    color: #964600;
+    font-size: 18px;
+}
+.contact-texts p{
+    color: #964600;
+    font-size: 18px;
+}
+.contact-info .card:hover{
+    background-color: #191c49;
+    transition-duration: 1.5s;
+}
+.contact-info .card:hover .contact-texts a{
+    color: white;
+}
+.contact-info .card:hover .contact-texts p{
+    color: white;
+}
+.contact-info .card:hover .contact-texts h6{
+    color: white;
+}
+
+/* Footer CSS */
+footer{
+    background-color: #E8E8E8;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.footer-intro a img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.footer-intro p{
+    color: #191c49;
+    font-weight: 400;
+}
+.footer-menu a{
+    display: block;
+}
+.f-heading{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.footer-menu a{
+    font-size: 18px;
+    color: #191c49;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.footer-menu a:hover{
+    color: #964600;
+}
+.footer-social a i{
+    font-size: 20px;
+    color: #191c49;
+    margin: 10px;
+    transition-duration: 1.5s;
+}
+.footer-social a i:hover{
+    color: #964600;
+}
+.footer-p{
+    border-top: 2px solid #f7f7f7;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.f-content{
+    padding-bottom: 45px;
+}
+
+
+
+.FAQ{
+    padding: 80px 0px;
+}
+
+.faq-content h4{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+/* SERVICE PAGE CSS  */
+.section-animation:hover{
+    background-color: #191c49;
+    transition-duration: 2s;
+}
+.section-animation:hover .design-content h3{
+    color: white;
+}
+.section-animation:hover .design-content p{
+    color: white;
+}
+.section-animation:hover .d-btn{
+    color: #E8E8E8;
+}
+.design-content p{
+    margin: 30px 0px;
+}
+
+/* Portfolio CSS  */
+.portfolio-items:hover .portfolio-items img{
+    box-shadow: 13px 14px 34px -3px rgba(25,28,73,0.37);
+    -webkit-box-shadow: 13px 14px 34px -3px rgba(25,28,73,0.37);
+    -moz-box-shadow: 13px 14px 34px -3px rgba(25,28,73,0.37);
+    transition-duration: .7s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.portfolio-items:hover .portfolio-items h6{
+    transition-duration: .7s;
+    transform: scale(1.5);
+    margin-top: 40px;
+}
+
+#contact iframe{
+    margin-top: 50px;
+    border-radius: 10px;
+}
+#contact iframe:hover{
+    transition-duration: 1.5s;
+    transform: scale(1.1);
+}
+
+
+/* Web Design Page CSS  */
+.skills{
+    padding: 80px 0px;
+}
+.skill-item i{
+    font-size: 60px;
+    margin-right: 20px;
+}
+.skill-item{
+    margin: 20px 0px;
+    border: 2px solid #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    transition-duration: 1.5s;
+}
+.skill-item:hover{
+    background-color: #191c49;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.skill-item:hover .skill-heading{
+    color: #E8E8E8;
+}
+.web-design-service{
+    background-color: #E8E8E8;
+    padding: 80px 0px;
+}
+.web-service-list{
+    background-color: #E8E8E8;
+}
+.web-service-list h2{
+    color: #191c49;
+}
+.web-service-list ul li{
+    list-style: none;
+    margin: 15px 0px;
+    padding: 10px 0px;
+    border-bottom: 2px solid #f7f7f7;
+    font-size: 20px;
+    font-weight: 500;
+    color: #191c49;
+}
+.web-service-list:hover{
+    background-color: #191c49;
+    transform: scale(1.1);
+    transition-duration: 1.5s;
+}
+.web-service-list:hover .list-heading{
+    color: #E8E8E8;
+}
+.web-service-list:hover .web-list li{
+    color: #E8E8E8;
+}
+.web-service-list > .d-btn:hover{
+    color: #964600;
+}
+.skill-item img{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+
